@@ -21,6 +21,7 @@ module.exports = {
       {test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader', query: {presets: ['es2015', 'react']}},
       {test: /\.scss?$/, exclude: /node_modules/, loader: 'style-loader!css-loader!sass-loader!'},
       {test: /\.css?$/, loader: 'style-loader!css-loader!'},
+      {test: /\.jpg$|.png$/, exclude: /node_modules/, loader: "file-loader?name=images/[name].[ext]"}
     ]
   },
   plugins: [
@@ -44,7 +45,6 @@ module.exports = {
   devServer: {
     inline: true,
     port: 8080,
-    contentBase: 'dist/',
-    historApiFallback: true
+    contentBase: 'dist/'
   }
 }

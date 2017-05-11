@@ -9,9 +9,7 @@ export default class HomePageContainer extends Component {
 
   render() {
     return (
-      <div>
-        <HomePage />
-      </div>
+      <HomePage />
     );
   }
 
