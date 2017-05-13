@@ -22,7 +22,7 @@ export default class Property extends Component {
             </div>
             <div className='col-md-4'>
               <ul>
-                <li>Average Price</li>
+                <li>Asking Price</li>
                 <li>£189,950</li>
                 <li>VIEW EXTRAS INCLUDED</li>
               </ul>
