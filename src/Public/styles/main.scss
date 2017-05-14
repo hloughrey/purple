@@ -1,8 +1,46 @@
+$primary-color: #82218F;
+$seconday-color: #E3E3E3;
+$important-color: #F70509;
+$primary-border: 1.5px solid #82218F;
+$important-border: 1.5px solid #F70509;
+
 body {
-  padding: 50px 0px;
+  padding: 60px 0px;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #555555;
   background-color: #ffffff;
+
+  h2 {
+    font-weight: bold;
+  }
+
+  .container-body, .container-important, .container-status{
+    padding: 0 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+
+  .container-body {
+    border: $primary-border;
+  }
+
+  .container-important {
+    border: $important-border;
+    background-color: #DBD9DB;
+  }
+
+  .primary {
+    color: $primary-color;
+  }
+
+  .secondary {
+    color: $seconday-color;
+  }
+
+  .important {
+    color: $important-color;
+  }
+
 }

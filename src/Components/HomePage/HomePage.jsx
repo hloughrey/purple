@@ -18,20 +18,20 @@ export default class HomePage extends Component {
     return (
       <div>
         <Header />
-        <div className='container'>
+        <div className='container container-status'>
           <Status />
         </div>
-        <div className='container'>
+        <div className='container container-body'>
           <Property />
         </div>
-        <div className='container'>
+        <div className='container container-body'>
           <BuyerDetails />
         </div>
-        <div className='container'>
+        <div className='container zero-padding'>
           <BuyersOffer />
           <Response />
         </div>
-        <div className='container'>
+        <div className='container container-body'>
           <ReopenNegotiations />
         </div>
       </div>

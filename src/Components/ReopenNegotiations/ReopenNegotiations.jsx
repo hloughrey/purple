@@ -11,32 +11,30 @@ export default class ReopenNegotiations extends Component {
   render() {
     return (
       <div className='col-md-12'>
-        <div className='reopen-negotiations-container'>
-          <h2>Re-open Negotiations</h2>
-          <hr />
-          <div className='row'>
-            <div className='col-md-9'>
-              <div className='expert-negotiate'>
-                <p>Would you like your Expert, Robert White, to negotiate on your behalf? It's completely free!</p>
-              </div>
-              <div className='col-md-3'>
-                <Button text={'NEGOTIATE FOR ME'}/>
-              </div>
+        <h2 className='primary'>Re-open Negotiations</h2>
+        <hr />
+        <div className='row'>
+          <div className='col-md-9'>
+            <div className='expert-negotiate'>
+              <p className='primary'>Would you like your Expert, Robert White, to negotiate on your behalf? It's completely free!</p>
+            </div>
+            <div className='col-md-3'>
+              <Button text={'NEGOTIATE FOR ME'}/>
             </div>
           </div>
-          <div className='new-offer'>
-            <p>Enter an offer you would be willing to accept:</p>
-          </div>
-          <div className='row'>
-            <div className='col-md-6'>
-              £<Input />
-            </div>
-            <div className='col-md-6'>
-              <Button text={'SUBMIT OFFER'} />
-            </div>
-          </div>
-          <Button text={'ADD COMMENS'} />
         </div>
+        <div className='new-offer'>
+          <p className='primary'>Enter an offer you would be willing to accept:</p>
+        </div>
+        <div className='row'>
+          <div className='col-md-6'>
+            £<Input />
+          </div>
+          <div className='col-md-6'>
+            <Button text={'SUBMIT OFFER'} />
+          </div>
+        </div>
+        <Button text={'ADD COMMENTS'} />
       </div>
 
     )
