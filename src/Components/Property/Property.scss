@@ -3,4 +3,14 @@
   border: 1px solid purple;
   border-radius: 3px;
   margin-bottom: 20px;
+
+  .aking-price {
+    list-style: none;
+    display: flex;
+
+    li {
+      justify-content: flex-end;
+    }
+  }
+
 }

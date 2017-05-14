@@ -8,7 +8,7 @@ export default class Button extends Component {
 
   render() {
     return (
-      <button class="btn btn-default" type="submit">{this.props.text}</button>
+      <button className="btn btn-default" type="submit">{this.props.text}</button>
     )
   }
 }

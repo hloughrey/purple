@@ -9,7 +9,7 @@ export default class BuyersOffer extends Component {
 
   render() {
     return (
-      <div className='col-md-4 col-md-offset-1'>
+      <div className='col-md-6'>
         <div className='buyer-offer-container'>
           <h2>Buyer Offer</h2>
           <hr />

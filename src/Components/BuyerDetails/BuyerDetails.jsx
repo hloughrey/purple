@@ -8,7 +8,7 @@ export default class BuyerDetails extends Component {
 
   render() {
     return (
-      <div className='col-md-10 col-md-offset-1'>
+      <div className='col-md-12'>
         <div className='buyer-details-container'>
           <h2>Buyer Details</h2>
           <p className='pull-right'>hide</p>

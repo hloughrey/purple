@@ -8,7 +8,7 @@ export default class Status extends Component {
 
   render() {
     return (
-      <div className='col-md-10 col-md-offset-1'>
+      <div className='col-md-12'>
         <div className='status-bar'>
           <h2><span>Status: </span>Withdrawn</h2>
         </div>

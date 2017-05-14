@@ -28,12 +28,12 @@ export default class HomePage extends Component {
           <BuyerDetails />
         </div>
         <div className='container'>
-          <div className='row'>
-            <BuyersOffer />
-            <Response />
-          </div>
+          <BuyersOffer />
+          <Response />
         </div>
-        <ReopenNegotiations />
+        <div className='container'>
+          <ReopenNegotiations />
+        </div>
       </div>
     )
   }

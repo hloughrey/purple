@@ -9,7 +9,7 @@ export default class Response extends Component {
 
   render() {
     return (
-      <div className='col-md-4 col-md-offset-1'>
+      <div className='col-md-6'>
         <div className='response-container'>
           <h2>Response</h2>
           <hr />
