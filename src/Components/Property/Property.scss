@@ -1,16 +1,11 @@
-.property-container {
-  // padding: 10px 20px;
-  // border: 1px solid purple;
-  // border-radius: 3px;
-  // margin-bottom: 20px;
+.the-property {
 
-  .aking-price {
+  .asking-price {
     list-style: none;
-    display: flex;
-
-    li {
-      justify-content: flex-end;
-    }
   }
 
+  .price, .address {
+    font-size: 25px;
+    font-weight: bold;
+  }
 }

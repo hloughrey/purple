@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Button.scss';
+import Style from './Button.scss';
 
 export default class Button extends Component {
   constructor() {
@@ -7,8 +7,12 @@ export default class Button extends Component {
   }
 
   render() {
+    let style = {
+      color: "#ffffff"
+    };
+
     return (
-      <button className="btn btn-default" type="submit">{this.props.text}</button>
+      <button className={`btn btn-default ${this.props.style}`} type="submit" style={style}>{this.props.text}</button>
     )
   }
 }

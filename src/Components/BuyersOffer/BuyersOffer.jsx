@@ -9,14 +9,14 @@ export default class BuyersOffer extends Component {
 
   render() {
     return (
-      <div className='col-md-6 container-body'>
+      <div className='col-md-6 container-body buyers-offer'>
         <h2 className='primary'>Buyer Offer</h2>
         <hr />
-        <b>£179,000</b>
+        <p className='offer-price'>£179,000</p>
         <p>Subject to offer qualification by Purple Bricks</p>
         <div className='row'>
           <div className='col-md-6'>
-            <Button text={'VIEW COMMENTS'} />
+            <Button text={'VIEW COMMENTS'} style='default'/>
           </div>
           <div className='col-md-3'>
             <p>Date 24/10/2013</p>

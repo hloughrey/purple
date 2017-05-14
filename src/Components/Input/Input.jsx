@@ -8,7 +8,7 @@ export default class Input extends Component {
 
   render() {
     return (
-      <input type='number' className='form-control' id='offer-input' />
+      <input type='number' className='form-control offer-input' id='offer-input' />
     )
   }
 }

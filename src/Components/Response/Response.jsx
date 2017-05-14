@@ -9,13 +9,13 @@ export default class Response extends Component {
 
   render() {
     return (
-      <div className='col-md-6 container-important'>
+      <div className='col-md-6 container-important reponse'>
         <h2 className='important'>Response</h2>
         <hr />
+        <p className='message'>You have withdrawn your acceptance of the offer</p>
         <div className='row'>
-          <p className='important'>You have withdrawn your acceptance of the offer</p>
           <div className='col-md-6'>
-            <Button text={'VIEW COMMENTS'} />
+            <Button text={'VIEW COMMENTS'} style='default'/>
           </div>
           <div className='col-md-3'>
             <p>Date 24/10/2013</p>

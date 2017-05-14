@@ -10,7 +10,7 @@ export default class Property extends Component {
 
   render() {
     return (
-      <div className='col-md-12'>
+      <div className='col-md-12 the-property'>
         <h2 className='primary'>The property</h2>
         <hr />
         <div className='row'>
@@ -18,13 +18,13 @@ export default class Property extends Component {
             <img src={PropertyImage} />
           </div>
           <div className='col-md-6'>
-            <p className='primary'>Eddington House, 16 Wigginton Road,<br />Tamworth, B79 8PB</p>
+            <p className='primary address'>Eddington House, 16 Wigginton Road,<br />Tamworth, B79 8PB</p>
           </div>
           <div className='col-md-4'>
-            <ul className='aking-price'>
+            <ul className='asking-price'>
               <li>Asking Price</li>
-              <li className='primary'>£189,950</li>
-              <li><Button text={'VIEW EXTRAS INCLUDED'} /></li>
+              <li className='primary price'>£189,950</li>
+              <li><Button text={'VIEW EXTRAS INCLUDED'} style='default'/></li>
             </ul>
           </div>
         </div>
