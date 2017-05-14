@@ -6,6 +6,26 @@ import Input from '../Input/Input.jsx';
 export default class ReopenNegotiations extends Component {
   constructor() {
     super()
+
+    this.state = {
+      offerPrice: null
+    };
+
+    this.onInput = this.onInput.bind(this);
+    this.onOfferSubmit = this.onOfferSubmit.bind(this);
+  }
+
+  onInput(e) {
+    this.setState({
+      offerPrice: e.target.value
+    })
+  }
+
+  onOfferSubmit() {
+    let offerPrice = {
+      offerPrice: this.state.offerPrice
+    };
+    console.log(offerPrice);
   }
 
   render() {
@@ -26,11 +46,11 @@ export default class ReopenNegotiations extends Component {
           <div className='row'>
             <div className='col-md-6 offer-price'>
               <span className='heading'>£</span>
-              <Input />
+              <Input onInput={this.onInput} value={this.state.offerPrice}/>
               <Button text={'ADD COMMENTS'} style='purple'/>
             </div>
             <div className='col-md-6'>
-              <Button text={'SUBMIT OFFER'} style='blue'/>
+              <Button text={'SUBMIT OFFER'} style='blue' onClick={this.onOfferSubmit}/>
             </div>
           </div>
         </div>

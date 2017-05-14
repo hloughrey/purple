@@ -12,7 +12,7 @@ export default class Button extends Component {
     };
 
     return (
-      <button className={`btn btn-default ${this.props.style}`} type="submit" style={style}>{this.props.text}</button>
+      <button className={`btn btn-default ${this.props.style}`} onClick={this.props.onClick} type="submit" style={style}>{this.props.text}</button>
     )
   }
 }
