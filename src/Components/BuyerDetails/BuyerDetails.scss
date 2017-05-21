@@ -1,0 +1,13 @@
+.buyer-details-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    h2 {
+        align-self: flex-start;
+    }
+
+    p {
+        align-self: flex-end;
+    }
+}

@@ -1,4 +1,16 @@
+.reponse {
+  padding-left: 30px;
+  padding-bottom: 20px;
+
+  .reponse-metadata {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
 .message {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }

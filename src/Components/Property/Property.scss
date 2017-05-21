@@ -4,8 +4,22 @@
     list-style: none;
   }
 
-  .price, .address {
-    font-size: 25px;
+  .address, .price {
     font-weight: bold;
   }
+  
+  .address {
+    font-size: 18px;
+  }
+
+  .price {
+    font-size: 25px;
+  }
+
+  .asking-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
 }

@@ -1,8 +1,19 @@
-.container {
-  width: 75%;
+.offer-response {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
 }
 
-.zero-padding {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+.container-buyers-offer {
+  padding-left: 0;
+}
+
+.container-response-warning {
+  padding-right: 0;
+}
+
+.container-buyers-offer, .container-response-warning {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

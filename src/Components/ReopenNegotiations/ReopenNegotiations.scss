@@ -7,6 +7,26 @@
 
   .expert {
     border: 1.5px solid #DBD9DB;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .negotiate-button {
+      display: flex;
+      justify-content: flex-end;
+
+    }
+  }
+
+  .offer-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .offer-button {
+      display: flex;
+      justify-content: flex-end;
+    }
   }
 
   .ask-for-expert {
@@ -19,6 +39,12 @@
     .heading {
       font-size: 25px;
       font-weight: bold;
+    }
+
+    .offer-price {
+      button {
+        float: right !important;
+      }
     }
 
   }

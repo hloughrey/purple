@@ -9,20 +9,14 @@ export default class Response extends Component {
 
   render() {
     return (
-      <div className='col-md-6 container-important reponse'>
+      <div className='col-md-12  container-important reponse'>
         <h2 className='important'>Response</h2>
         <hr />
-        <p className='message'>You have withdrawn your acceptance of the offer</p>
-        <div className='row'>
-          <div className='col-md-6'>
-            <Button text={'VIEW COMMENTS'} style='default'/>
-          </div>
-          <div className='col-md-3'>
-            <p>Date 24/10/2013</p>
-          </div>
-          <div className='col-md-3'>
-            <p>Time 21:05</p>
-          </div>
+        <p className='message important'>You have withdrawn your acceptance of the offer</p>
+        <div className='reponse-metadata'>
+          <Button text={'VIEW COMMENTS'} style='default'/>
+          <p>Date 24/10/2013</p>
+          <p>Time 21:05</p>
         </div>
       </div>
     )

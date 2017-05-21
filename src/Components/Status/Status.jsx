@@ -10,7 +10,7 @@ export default class Status extends Component {
     return (
       <div className='col-md-12'>
         <div className='status-bar'>
-          <h2><span>Status: </span>Withdrawn</h2>
+          <p className='status-heading'><b>Status: </b>Withdrawn</p>
         </div>
       </div>
     )

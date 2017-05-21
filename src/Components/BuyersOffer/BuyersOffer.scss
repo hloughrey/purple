@@ -1,7 +1,17 @@
 .buyers-offer {
+  padding-left: 30px;
 
-  .offer-price {
-    font-size: 25px;
-    font-weight: bold;
+  .buyers-offer-metadata {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
   }
+
+}
+
+.offer-price {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
 }

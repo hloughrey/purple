@@ -5,7 +5,7 @@ $primary-border: 1.5px solid #82218F;
 $important-border: 1.5px solid #F70509;
 
 body {
-  padding: 60px 0px;
+  padding: 100px 0px;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
@@ -16,10 +16,21 @@ body {
     font-weight: bold;
   }
 
+  hr {
+    margin-top: 10px;
+  }
+
+  .container {
+    width: 70%;
+  }
+
   .container-body, .container-important, .container-status{
-    padding: 0 20px;
+    margin: 10px auto;
     border-radius: 3px;
-    margin-bottom: 20px;
+  }
+
+  .container-status {
+    background-color: $important-color;
   }
 
   .container-body {
@@ -30,7 +41,7 @@ body {
     border: $important-border;
     background-color: #DBD9DB;
   }
-
+  
   .primary {
     color: $primary-color;
   }

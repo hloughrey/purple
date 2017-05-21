@@ -21,7 +21,7 @@ export default class Header extends Component {
           </div>
           <div id='navbar-main' className='navbar-collapse collapse'>
             <ul className='nav navbar-nav pull-right headings'>
-              <li className='page-name'>Secure negotiation centre</li>
+              <h2 className='page-name primary'>Secure negotiation centre</h2>
             </ul>
           </div>
         </div>

@@ -26,8 +26,14 @@ export default class BuyerDetails extends Component {
     if(this.state.buyerDetails.visible) {
       return (
         <div className='col-md-12 buyer-details'>
-          <h2 className='primary'>Buyer Details</h2>
-          <p className='primary' onClick={this.detailsVisibility}>HIDE <span className='glyphicon glyphicon-chevron-up'></span></p>
+          <div className='row buyer-details-heading'>
+            <div className='col-md-6'>
+              <h2 className='primary'>Buyer Details</h2>
+            </div>
+            <div className='col-md-6'>
+              <p className='primary pull-right' onClick={this.detailsVisibility}>HIDE <span className='glyphicon glyphicon-chevron-up'></span></p>
+            </div>
+          </div>
           <hr />
           <div id='buyers-details-table' className='buyers-details-table'>
             <table className='table'>
@@ -56,8 +62,15 @@ export default class BuyerDetails extends Component {
     } else {
       return (
         <div className='col-md-12 buyer-details'>
-          <h2 className='primary'>Buyer Details</h2>
-          <p className='primary' onClick={this.detailsVisibility}>SHOW <span className='glyphicon glyphicon-chevron-up'></span></p>
+          <div className='row buyer-details-heading'>
+            <div className='col-md-6'>
+              <h2 className='primary'>Buyer Details</h2>
+            </div>
+            <div className='col-md-6'>
+              <p className='primary pull-right' onClick={this.detailsVisibility}>SHOW <span className='glyphicon glyphicon-chevron-down'></span></p>
+            </div>
+          </div>
+          <hr />
         </div>
       )
     }
