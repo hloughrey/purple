@@ -20,10 +20,6 @@ body {
     margin-top: 10px;
   }
 
-  .container {
-    width: 70%;
-  }
-
   .container-body, .container-important, .container-status{
     margin: 10px auto;
     border-radius: 3px;
@@ -41,7 +37,7 @@ body {
     border: $important-border;
     background-color: #DBD9DB;
   }
-  
+
   .primary {
     color: $primary-color;
   }

@@ -14,10 +14,10 @@ export default class Property extends Component {
         <h2 className='primary'>The property</h2>
         <hr />
         <div className='row'>
-          <div className='col-md-2'>
+          <div className='col-sm-3 col-md-2'>
             <img src={PropertyImage} />
           </div>
-          <div className='col-md-6'>
+          <div className='col-sm-5 col-md-6'>
             <p className='primary address'>Eddington House, 16 Wigginton Road,<br />Tamworth, B79 8PB</p>
           </div>
           <div className='col-md-4'>

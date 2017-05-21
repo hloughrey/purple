@@ -18,28 +18,30 @@ export default class HomePage extends Component {
     return (
       <div>
         <Header />
-        <div className='container'>
-          <div className='col-md-12 container-status'>
-            <Status />
-          </div>
-          <div className='col-md-12 container-body'>
-            <Property />
-          </div>
-          <div className='col-md-12 container-body'>
-            <BuyerDetails />
-          </div>
-          <div className='col-md-12'>
-            <div className='row offer-response'>
-              <div className='col-md-6 container-buyers-offer'>
-                <BuyersOffer />
-              </div>
-              <div className='col-md-6 container-response-warning'>
-                <Response />
+        <div className='container-fluid'>
+          <div className='col-xs-12 col-sm-offset-1 col-sm-10 col-lg-offset-2 col-lg-8'>
+            <div className='col-md-12 container-status'>
+              <Status />
+            </div>
+            <div className='col-md-12 container-body'>
+              <Property />
+            </div>
+            <div className='col-md-12 container-body'>
+              <BuyerDetails />
+            </div>
+            <div className='col-md-12'>
+              <div className='row offer-response'>
+                <div className='col-md-6 container-buyers-offer'>
+                  <BuyersOffer />
+                </div>
+                <div className='col-md-6 container-response-warning'>
+                  <Response />
+                </div>
               </div>
             </div>
-          </div>
-          <div className='col-md-12 container-body'>
-            <ReopenNegotiations />
+            <div className='col-md-12 container-body'>
+              <ReopenNegotiations />
+            </div>
           </div>
         </div>
       </div>
